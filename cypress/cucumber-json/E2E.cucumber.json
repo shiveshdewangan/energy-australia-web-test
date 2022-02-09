@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Festivals List",
+    "line": 1,
+    "id": "festivals-list",
+    "tags": [],
+    "uri": "E2E.feature",
+    "elements": [
+      {
+        "id": "festivals-list;end-to-end-testing-of-festivals-list",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "End to End Testing of Festivals list",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is at the login page",
+            "result": {
+              "status": "passed",
+              "duration": 500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User verifies the title as \"EaCodingTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User verifies the url as \"http://localhost:4200/festivals\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is able to see the list of festivals",
+            "result": {
+              "status": "passed",
+              "duration": 10082000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

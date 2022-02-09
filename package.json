@@ -1,0 +1,29 @@
+{
+	"name": "cypress-testing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test:chrome": "cypress run cypress run --headed --browser chrome --spec cypress/integration/E2E.feature",
+		"test:firefox": "cypress run cypress run --headed --browser firefox --spec cypress/integration/E2E.feature",
+		"test": "cypress run cypress run --browser chrome --spec cypress/integration/E2E.feature",
+		"report": "node cypress/cucumber-json/cucumber-html-report.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^9.4.1",
+		"cypress-cucumber-preprocessor": "^4.3.1",
+		"multiple-cucumber-html-reporter": "^1.19.0"
+	},
+	"cypress-cucumber-preprocessor": {
+		"nonGlobalStepDefinitions": true,
+		"cucumberJson": {
+			"generate": true,
+			"outputFolder": "cypress/cucumber-json",
+			"filePrefix": "",
+			"fileSuffix": ".cucumber"
+		}
+	}
+}

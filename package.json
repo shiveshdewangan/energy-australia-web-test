@@ -6,7 +6,7 @@
 	"scripts": {
 		"test:chrome": "cypress run cypress run --headed --browser chrome --spec cypress/integration/E2E.feature",
 		"test:firefox": "cypress run cypress run --headed --browser firefox --spec cypress/integration/E2E.feature",
-		"test": "cypress run cypress run --browser chrome --spec cypress/integration/E2E.feature",
+		"test": "cypress run cypress run --headless --spec cypress/integration/E2E.feature",
 		"report": "node cypress/cucumber-json/cucumber-html-report.js"
 	},
 	"keywords": [],

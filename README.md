@@ -1,6 +1,6 @@
 ## Test Automation of Energy Australia - Web application
 
-Technology used - JavaScript, Node, Cypress
+Technology used - JavaScript, Node, Cypress, Cucumber
 
 
 
